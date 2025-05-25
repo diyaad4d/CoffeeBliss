@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+
+@layer utilities {
+    .img-shadow{
+        filter:drop-shadow(40px 50px 25px #0f1115);
+    }
+    .img-shadow2{
+        filter:drop-shadow(10px 30px 15px #3030307a);
+    }
+}
