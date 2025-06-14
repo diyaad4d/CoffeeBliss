@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaCcVisa, FaCcMastercard, FaPaypal } from 'rea
 
 const Footer = () => {
     return (
-        <section>
+        <section id="footer">
             <footer className="bg-[#FFC107] text-[#1a1f25] py-16 mt-20 text-xl">
                 <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
 
@@ -11,9 +11,7 @@ const Footer = () => {
                     <div className="flex flex-col justify-center h-full relative left-25">
                         <h2 className="text-3xl font-bold mb-4">Coffee Bliss</h2>
                         <p className="text-[#272c35] leading-relaxed max-w-md">
-                            I am Diyaa Daifi and I have built this E-commerce Cafe Store to hone my skills as a developer.
-                            At Coffee Bliss, we believe every cup tells a story -
-                            we craft more than coffee — we craft moments.
+                            We believe every cup tells a story – we craft more than coffee — we craft moments.
                         </p>
                         <p>#diyaa-d4d</p>
                     </div>

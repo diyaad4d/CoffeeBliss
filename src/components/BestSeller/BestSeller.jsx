@@ -24,7 +24,7 @@ const bestSellerItems=[
 
 
 const BestSeller = () =>{
-    return <section className="container my-16 space-y-4" id="best_seller">
+    return <section className="container my-16 space-y-4 " id='best_seller' >
         {/* head best seller and p */}
         <div className="text-center max-w-lg mx-auto space-y-2 ">
             <motion.h1 initial={{opacity: 0,y:100}}

@@ -7,6 +7,7 @@ import breakfast from '../../assets/breakfast.jpg';
 import coffee from '../../assets/coffee.jpg';
 import desserts from '../../assets/dessert.jpg';
 
+import { Link } from 'react-router-dom';
 
 
 const mainBg={
@@ -23,6 +24,7 @@ const Hero = () => {
 
     return  <main style={mainBg}>
         <section className=" relative min-h-[750px] w-full">
+
             <div className="container">
                 {/* Navbar section */}
                 <Navbar  isSidebar={isSidebar} setIsSidebar={setIsSidebar} menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -134,29 +136,49 @@ const Hero = () => {
                     >
                         {/* Changed items-center to items-start and added pt-8 for top padding */}
                         <div className="w-full h-full flex justify-center items-start pt-25">
-                            <div className="flex flex-col justify-start items-center gap-4 text-white w-full px-2 mt-8">
+                            <div className="flex flex-col justify-start items-center gap-4 text-white w-full px-2 mt-8 ">
                                 {/* line - shortened since we're higher up */}
                                 <div className="w-[1px] h-[30px] bg-white"></div>
 
                                 {/* items - all same size */}
-                                <div className="w-full py-3 rounded-full cursor-pointer border border-white flex justify-center">
-                                    <h1 className="text-xl font-bold uppercase">Coffee</h1>
-                                </div>
+                                <Link
+                                    to="/caffeine"
+                                    className="w-full py-3 rounded-full cursor-pointer border border-white hover:bg-white hover:text-black transition text-xl font-bold uppercase text-center flex items-center justify-center"
+                                    onClick={() => setIsSidebar(false)}
+                                >
+                                    Coffee
+                                </Link>
 
-                                <div className="w-full py-3 rounded-full cursor-pointer border border-white flex justify-center">
-                                    <h1 className="text-xl font-bold uppercase">Desserts</h1>
-                                </div>
 
-                                <div className="w-full py-3 rounded-full cursor-pointer border border-white flex justify-center">
-                                    <h1 className="text-xl font-bold uppercase">Breakfast</h1>
-                                </div>
+                                <Link
+                                    to="/dessert"
+                                    className="w-full py-3 rounded-full cursor-pointer border border-white hover:bg-white hover:text-black transition text-xl font-bold uppercase text-center flex items-center justify-center"
+                                    onClick={() => setIsSidebar(false)}
+                                >
+                                    Desserts
+                                </Link>
 
-                                <div className="w-full py-3 rounded-full cursor-pointer border border-white flex justify-center">
-                                    <h1 className="text-xl font-bold uppercase">Gelato</h1>
-                                </div>
+                                <Link
+                                    to="/breakfast"
+                                    className="w-full py-3 rounded-full cursor-pointer border border-white hover:bg-white hover:text-black transition text-xl font-bold uppercase text-center flex items-center justify-center"
+                                    onClick={() => setIsSidebar(false)}
+                                >
+                                    Breakfast
+                                </Link>
 
-                                <div className="w-full py-3 rounded-full cursor-pointer border border-white flex justify-center">
-                                    <h1 className="text-xl font-bold uppercase">Contact</h1>
+                                <Link
+                                    to="/dessert"
+                                    className="w-full py-3 rounded-full cursor-pointer border border-white hover:bg-white hover:text-black transition text-xl font-bold uppercase text-center flex items-center justify-center"
+                                    onClick={() => setIsSidebar(false)}
+                                >
+                                    Gelato
+                                </Link>
+
+                                <div
+                                    className="w-full py-3 rounded-full cursor-pointer border border-white hover:bg-white hover:text-black transition text-xl font-bold uppercase text-center flex items-center justify-center"
+                                    onClick={() => setIsSidebar(false)}
+                                >
+                                    <a href={"#footer"}>Contact</a>
                                 </div>
 
                                 {/* line - shortened */}
