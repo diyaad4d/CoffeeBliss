@@ -2,6 +2,10 @@
 # – A Modern Café Web App 
 # / E-commerce Store Project
 
+
+<img width="1892" height="966" alt="Screenshot 2025-10-05 054201" src="https://github.com/user-attachments/assets/ebd7350f-da9a-483d-b89f-e4af71b8084a" />
+
+
 An interactive coffee shop website built with **React**, **Tailwind CSS**, and **Vite**.
 
 > Add-to-cart functionality, animated sidebar navigation, category filtering (Caffeine, Desserts, Breakfast), and a responsive UI — perfect for showcasing a digital café menu.
