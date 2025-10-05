@@ -16,8 +16,8 @@
 
 
 An interactive coffee shop website built with **React**, **Tailwind CSS**, and **Vite**.
-
-> Add-to-cart functionality, animated sidebar navigation, category filtering (Caffeine, Desserts, Breakfast), and a responsive UI — perfect for showcasing a digital café menu.
+coffee Bliss is a modern e-commerce web application designed to provide a seamless online shopping experience for coffee lovers and dessert enthusiasts. Built with React, Vite, and Tailwind CSS, the project demonstrates full front-end functionality with dynamic routing, state management, and responsive design.
+ Add-to-cart functionality, animated sidebar navigation, category filtering (Caffeine, Desserts, Breakfast), and a responsive UI — perfect for showcasing a digital café menu.
 
 
 ## 🌐 Live Demo
