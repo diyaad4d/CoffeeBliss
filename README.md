@@ -1,17 +1,15 @@
 # ☕ CoffeeBliss 
-# – A Modern Café Web App / E-commerce Store Project
+# – A Modern Café Web App 
+# / E-commerce Store Project
 
 An interactive coffee shop website built with **React**, **Tailwind CSS**, and **Vite**.
 
 > Add-to-cart functionality, animated sidebar navigation, category filtering (Caffeine, Desserts, Breakfast), and a responsive UI — perfect for showcasing a digital café menu.
 
-![Coffee Bliss Preview](./src/assets/preview.png)
-
----
 
 ## 🌐 Live Demo
 
-🔗 **Live Preview:** [https://diyaad4d.github.io/CoffeeBliss](https://diyaad4d.github.io/CoffeeBliss)
+🔗 **Live Preview:** [https://coffee-bliss.onrender.com]
 
 ---
 
