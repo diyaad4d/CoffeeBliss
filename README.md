@@ -2,7 +2,8 @@
 # – A Modern Café Web App/ E-commerce Store Project
 
 
-<img width="1892" height="966" alt="Screenshot 2025-10-05 054201" src="https://github.com/user-attachments/assets/ebd7350f-da9a-483d-b89f-e4af71b8084a" width="45%" /> <img width="1875" height="938" alt="Screenshot 2025-10-05 232249" src="https://github.com/user-attachments/assets/934c6c3d-190b-428e-b073-1cb816abe416" width="45%" />
+<img src="https://github.com/user-attachments/assets/ebd7350f-da9a-483d-b89f-e4af71b8084a" alt="Screenshot 1" width="45%" style="margin-right:5%;" />
+<img src="https://github.com/user-attachments/assets/934c6c3d-190b-428e-b073-1cb816abe416" alt="Screenshot 2" width="45%" />
 
 
 
