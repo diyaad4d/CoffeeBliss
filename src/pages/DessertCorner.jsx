@@ -74,7 +74,7 @@ const BreakfastCorner = () => {
 
                 {/* Header */}
                 <div className="text-center px-4 py-6">
-                    <h1 className="text-5xl md:text-6xl font-extrabold text-[#1a1f25] font-[Cinzel]">Breakfast Corner</h1>
+                    <h1 className="text-5xl md:text-6xl font-extrabold text-[#1a1f25] font-[Cinzel]">Dessert Corner</h1>
                     <p className="text-xl text-[#e6ac00] max-w-2xl mx-auto font-[Quicksand] leading-relaxed">
                         Start your day golden —  fresh, and full of flavor.
                     </p>
